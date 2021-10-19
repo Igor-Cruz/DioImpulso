@@ -4,44 +4,32 @@
     <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos- Flex Direction</title><link rel="stylesheet" href="flexDirection.css">
+    <title>Fundamentos- Flex Wrap</title><link rel="stylesheet" href="flexWrap.css">
 
 </head>
 <body>
-    <ul class="flex-container ">
-        <h2>row</h2>
-        <li class="flex-item">1</li>
-        <li  class="flex-item">2</li>
-        <li  class="flex-item">3</li>
-        <li  class="flex-item">4</li>
-        <li  class="flex-item">5</li>
-    </ul>
+   <h1>nowrap</h1>
+   <div class="flex-container nowrap">
+       <div class="item red" >01</div>
+       <div class="item blue">02</div>
+       <div class="item green">03</div>
+       <div class="item red" >01</div>
+   </div>
 
-    <ul class="flex-container row-reverse">
-        <h2>row-reverse</h2>
-        <li class="flex-item">1</li>
-        <li  class="flex-item">2</li>
-        <li  class="flex-item">3</li>
-        <li  class="flex-item">4</li>
-        <li  class="flex-item">5</li>
-    </ul>
+   <h1>wrap</h1>
+   <div class="flex-container wrap">
+       <div class="item blue">01</div>
+       <div class="item red">02</div>
+       <div class="item green">03</div>
+       <div class="item red">04</div>
+   </div>
 
-    <ul class="flex-container  column">
-        <h2>column</h2>
-        <li class="flex-item">1</li>
-        <li  class="flex-item">2</li>
-        <li  class="flex-item">3</li>
-        <li  class="flex-item">4</li>
-        <li  class="flex-item">5</li>
-    </ul>
-
-    <ul class="flex-container column-reverse ">
-        <h2>column-reverse</h2>
-        <li class="flex-item">1</li>
-        <li  class="flex-item">2</li>
-        <li  class="flex-item">3</li>
-        <li  class="flex-item">4</li>
-        <li  class="flex-item">5</li>
-    </ul>
+   <h1>wrap-reverse</h1>
+   <div class="flex-container wrap-reverse">
+       <div class="item blue">01</div>
+       <div class="item red">02</div>
+       <div class="item green">03</div>
+       <div class="item red">04</div>
+   </div>
 </body>
 </html>
